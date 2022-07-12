@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:bisque;
+        }
+        h2 {
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            color: rgb(192, 137, 17);
+        }
+        .mid {
+            position: absolute;
+            left: 25%;
+            top: 20px;
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            right: 35px;
+            top: 20px;
+
+        }
+
+        .navbar li {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 10px 40px;
+            margin-left: 10px;
+            float: left;
+            list-style: none;
+            color: white;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+        .navbar :hover {
+            background-color: rgb(127, 180, 154);
+        }
+        .midbox{
+            border: 3px solid lightpink;
+            padding: 200px 200px;
+            position: absolute;
+            top: 150px;
+            left: 550px;
+            border-radius: 20px;
+        }
+        .name{
+            position: absolute;
+            left: 55px;
+            top: 25px;
+        }
+        .pass{
+            position: absolute;
+            left: 55px;
+            top: 80px;
+        }
+        .signbtn{
+            position: absolute;
+            font-size: large;
+            left: 50px;
+            width: 300px;
+            height: 50px;
+        }
+        .signbtn:hover{
+            color: red;
+        }
+        .registerbtn{
+            position: absolute;
+            font-size: large;
+            left: 50px;
+            top: 275px;
+            width: 300px;
+            height: 50px;
+        }
+        .registerbtn:hover{
+            color: red;
+        }
+        .fpass{
+            position: absolute;
+            left: 200px;
+            top: 150px;   
+        }
+        .fuser{
+            position: absolute;
+            left: 80px;
+            top: 150px;   
+        }
+        img{
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <img src="gym1.jfif" alt="">
+    <h2>Login : ________</h2>
+    <div class="mid">
+        <!-- mdi div for the navigation menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a> </li>
+                <li><a href="About.html">About Us</a> </li>
+                <li><a href="register.html">Login</a> </li>
+               
+            </ul>
+        </nav>
+    </div>
+    <div class="right">
+        <!-- Right div for the Logine Details menu  -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="contact.html">Contact Us</a> </li>
+                <li><a href="#">Email</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="login">
+        <div class="midbox">
+            <div> <h3 class="name" style="color: white;">Name : <input type="text"></h3></div>
+           <div> <h3 class="pass" style="color: white;">Password : <input type="text"></h3></div>
+           <div><a href="" class="fpass" >forgot Password</a></div>
+           <div><a href="" class="fuser">forgot userid</a></div>
+           <div><button class="signbtn">Sign In</button></div>
+           <div><button class="registerbtn">Register</button></div>
+        </div>
+    </div>
+</body>
+</html>
